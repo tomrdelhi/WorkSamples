@@ -1,0 +1,112 @@
+<html>
+  <link rel="stylesheet" type="text/css" href="Tinter.css">
+  <head>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <title>Mirabel Demo 3</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      html, body {
+        font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif';
+        font-weight: 400;
+        font-size: 16px;
+        color: #333;
+      }
+
+      .center-text {
+        text-align: center;
+      }
+
+      main {
+        padding: 20px;
+      }
+
+      img.logo {
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+        margin-bottom: 30px;
+      }
+
+      h2 {
+        font-size: 2em;
+        font-weight: 100;
+      }
+
+      footer {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding: 20px;
+      }
+
+      footer p {
+        font-weight: 300;
+        font-size: 1.0em;
+      }
+
+      a {
+        color: #31D8A0;
+        text-decoration: none;
+      }
+
+      a:hover,
+      a:focus {
+        color: #31D8A0;
+      }
+    </style>
+  </head>
+  <body onload="ALFunc()">
+    <main class="container">
+      <script src="TintPhotMan.js"></script>
+      <div class="wrap">
+
+      <div id="left_col">
+      <h1>Your Colour Is:</h1>
+      <h1 id="colorVal"></h1>
+      <div id="circle"></div>
+      </div>
+      
+      <div id="right_col">
+      <table class="pure-table pure-table-horizontal">
+        <thead>
+          <tr>
+            <th id="Header"><font size="5">Your Top 5 Results:</font></th>
+            <th><th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr id="Sug1">
+            <td id="p1" class = "tresp"></td>
+            <td><img src="MUPlaceholder.jpg" height =100 width=100 id="test1"></td>
+          </tr>
+          <tr id="Sug2">
+            <td id="p2" class = "tresp"></td>
+            <td><img src="MUPlaceholder.jpg" height =100 width=100></td>
+          </tr>
+          <tr id="Sug3">
+            <td id="p3" class = "tresp"></td>
+            <td><img src="MUPlaceholder.jpg" height =100 width=100></td>
+          </tr>
+          <tr id="Sug4">
+            <td id="p4" class = "tresp"></td>
+            <td><img src="MUPlaceholder.jpg" height =100 width=100></td>
+          </tr>
+          <tr id="Sug5">
+            <td id="p5" class = "tresp"></td>
+            <td><img src="MUPlaceholder.jpg" height =100 width=100></td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+
+    </div>
+      <h1 id="LSError">Error: Browser doesn't support Local Storage</h1>
+    </main>
+  </body>
+</html>

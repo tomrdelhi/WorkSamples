@@ -1,0 +1,57 @@
+
+button{
+background:    #fff;
+border:        1px solid #007aff;
+border-radius: 5px;
+box-shadow:    0 1px 0 0 #bce;
+color:         #007aff;
+display:       inline-block;
+padding:       10px 25px;
+font:          normal 700 24px/1 "Lobster Two", serif;
+text-align:    center;
+text-shadow:   none;
+}
+
+video{
+	border: 1px solid #000;
+	display: none;
+	margin: auto;
+}
+
+img{
+	border: 1px solid #000;
+	margin: auto;
+}
+
+.container{
+	text-align: center;
+}
+
+#circle { width: 400px;
+	height: 400px;
+	/*background: #ffd9b3;*/
+	border-radius: 200px;
+	margin: auto;
+	}
+#LSError {
+	display: none;
+}
+
+
+#wrap {
+   width:600px;
+   margin:0 auto;
+}
+#left_col {
+   float:left;
+   width:500px;
+}
+#right_col {
+   float:right;
+   width:500px;
+}
+
+.tresp{
+	font-size: 30px;
+}
+
